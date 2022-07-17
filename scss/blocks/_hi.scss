@@ -1,0 +1,31 @@
+.hi {
+   background: #F2AE4D url(../../img/hello-bg.png) right center / auto no-repeat;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   padding: 0 20px;
+}
+
+.container {
+   flex: 1 0 auto;
+}
+
+.hi__title {
+   font-size: 48px;
+   line-height: 56px;
+   color: #011F3A;
+   max-width: 480px;
+   margin-bottom: 34px;
+}
+
+.hi__description {
+   font-size: 15px;
+   line-height: 24px;
+   /* or 160% */
+   margin-bottom: 15px;
+   color: #011F3A;
+}
+
+.hi__btn {
+   padding: 20px 30px;
+}

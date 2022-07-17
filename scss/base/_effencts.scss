@@ -1,0 +1,60 @@
+.menu__link {
+   transition: all .2s ease-in-out;
+}
+
+.menu__link:hover {
+   text-decoration: underline;
+   background: #eee;
+}
+
+.menu__link:active {
+   background: #999;
+}
+
+.header__account {
+   transition: all .2s ease-in-out;
+}
+
+.header__account:hover {
+   text-decoration: underline;
+   background: #eee;
+}
+
+.header__account:active {
+   background: #999;
+}
+
+.header__burger._active {
+   span {
+      opacity: 0;
+      transform: translateX(-100%);
+   }
+
+   &::before {
+      transform: rotate(45deg) translate(0, -50%);
+      top: 50%;
+   }
+
+   &::after {
+      transform: rotate(-45deg) translate(0, 50%);
+      bottom: 50%;
+   }
+}
+
+.nav._open {
+   opacity: 1;
+   transform: translate(0, 0);
+}
+
+.btn {
+   cursor: pointer;
+   transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+   opacity: 0.85;
+}
+
+.btn:active {
+   opacity: 0.6;
+}

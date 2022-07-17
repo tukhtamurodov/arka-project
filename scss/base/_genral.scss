@@ -1,0 +1,25 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.btn {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 18px;
+   /* identical to box height, or 129% */
+   letter-spacing: 1.96px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   background: #3D5675;
+   border-radius: 44px;
+}
+
+.wrapper {
+   background: #EEEEEE;
+}

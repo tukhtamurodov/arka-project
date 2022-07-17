@@ -1,0 +1,62 @@
+.start {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 88px 0;
+   text-align: center;
+   background: #72BDA3;
+   box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+}
+
+
+
+.start__title {
+   font-size: 32px;
+   line-height: 41px;
+   margin-bottom: 36px;
+   /* identical to box height, or 128% */
+   text-align: center;
+   color: #011F3A;
+}
+
+.start__cards {
+   display: flex;
+   align-items: stretch;
+   justify-content: space-around;
+   margin-bottom: 76px;
+}
+
+.start__card {
+   max-width: 300px;
+}
+
+.start__icon {
+   width: 300px;
+}
+
+.start__icon img {
+   width: 100%;
+}
+
+.start__name {
+   font-size: 18px;
+   line-height: 23px;
+   /* identical to box height, or 128% */
+   text-align: center;
+   letter-spacing: 0.36px;
+   color: #011F3A;
+}
+
+.start__descr {
+   max-width: 200px;
+   margin: 0 auto;
+   font-size: 15px;
+   line-height: 24px;
+   /* or 160% */
+   text-align: center;
+   color: #3D5675;
+}
+
+.start__btn {
+   padding: 13px 25px;
+}
+

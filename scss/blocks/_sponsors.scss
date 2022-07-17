@@ -1,0 +1,31 @@
+.sponsor {
+   background: #fff;
+}
+
+.sponsor__row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.sponsor__item {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px 0;
+   gap: 16px;
+}
+
+.sponsor__icon img {
+   height: 80px;
+}
+
+.sponsor__name {
+   max-width: 100px;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 19px;
+   /* or 127% */
+   letter-spacing: 0.6px;
+   color: #A1A1A1;
+}
