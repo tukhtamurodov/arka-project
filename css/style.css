@@ -1,15 +1,15 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Roboto";
-  src: url("../Roboto-Light.eot");
-  src: url("../Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../Roboto-Light.woff") format("woff"), url("../Roboto-Light.ttf") format("truetype");
+  src: url("../fonts/Roboto-Light.eot");
+  src: url("../fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Light.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../Roboto-Bold.eot");
-  src: url("../Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../Roboto-Bold.woff") format("woff"), url("../Roboto-Bold.ttf") format("truetype");
+  src: url("../fonts/Roboto-Bold.eot");
+  src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
@@ -286,7 +286,7 @@ body {
   }
 }
 .hi {
-  background: #F2AE4D url(../../img/hello-bg.png) right center/auto no-repeat;
+  background: #F2AE4D url(../img/hello-bg.png) right center/auto no-repeat;
   height: 100vh;
   display: flex;
   align-items: center;
